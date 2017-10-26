@@ -1,0 +1,53 @@
+.head{
+		margin: 0;
+		padding: 0;
+		background-color: #f9f6d8;
+}
+
+.menu{	
+		overflow:hidden;
+		background-color: #ae855c;
+		top:0;
+		height: 5em;
+		position: relative;
+}
+
+.menu > form > input{
+		background-color:#854442;
+		border-radius: 50px;
+		border: none;
+		color: #f9f6d8;
+
+}
+
+.menu > h1{
+		position: absolute;
+		top:0;
+		left:50px;
+
+}
+
+.menu > h1 > a
+{
+		text-decoration: none;
+		color:#854442;
+}
+
+.index{
+		overflow: scroll;
+}
+
+.button_h{
+		position: absolute;
+		right: 0;
+}
+
+.foo{
+		background-image:linear-gradient( #f9f6d8 10%,  #ae855c 90%);
+		height: 30px;
+	 	position: absolute;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		padding: 1rem;
+}
